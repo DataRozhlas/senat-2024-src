@@ -178,7 +178,9 @@ df13$navrh_inst <- gsub('^Návrh (Z|z)astupitelstva.*', 'Kraje', df13$navrh_inst
 df13 <- df13[, c(1:11, 16, 12:15),];
 
 
-## Final dataset pro analýzu
+
+### Final dataset pro analýzu
+
 df <- df13;
 
 rm(df1, df2, df3, df4, df5, df6, df7, df8, df9, df10, df11, df12, df13,
